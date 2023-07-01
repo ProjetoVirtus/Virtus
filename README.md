@@ -11,5 +11,5 @@
 ## Integrantes
 <br>
 <div align="center">
-<a><img src="Imagens/Daniel%20Ribeiro.png"></a>
+<a><img src="Imagens/Daniel%20Ribeiro.png" width="250" height="250"></a>
 </div>
