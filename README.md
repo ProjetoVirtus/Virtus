@@ -16,11 +16,15 @@
 <a><img src="Imagens/Gabriel%20Pinheiro.png" width="200" height="200"></a>
 </div>
 
+<br>
+
 <div align="center">
 <a><img src="Imagens/Jo%C3%A3o%20Vitor.png" width="200" height="200"></a>
 <a><img src="Imagens/Matheus%20Vieira.png" width="200" height="200"></a>
 <a><img src="Imagens/Paulo%20Vitor.png" width="200" height="200"></a>
 </div>
+
+<br>
 
 <div align="center">
 <a><img src="Imagens/Romulo%20Brito.png" width="200" height="200"></a>
