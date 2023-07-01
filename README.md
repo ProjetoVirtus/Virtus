@@ -9,3 +9,7 @@
 - [Integrantes](#integrantes)
 
 ## Integrantes
+<br>
+<div align="center">
+<a><img src="Imagens/Daniel%20Ribeiro.png"></a>
+</div>
