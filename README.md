@@ -11,5 +11,7 @@
 ## Integrantes
 <br>
 <div align="center">
-<a><img src="Imagens/Daniel%20Ribeiro.png" width="250" height="250"></a>
+<a><img src="Imagens/Daniel%20Ribeiro.png" width="200" height="200"></a>
+<a><img src="Imagens/Eduarda%20Ribas.png" width="200" height="200"></a>
+<a><img src="Imagens/Gabriel%20Pinheiro.png" width="200" height="200"></a>
 </div>
