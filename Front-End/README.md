@@ -27,4 +27,3 @@ Esse repositório é responsável por fornecer uma interface rápida e intuitiva
     - Utilizamos o Next.js por sua facilidade e eficiência. Ele reúne diversas funcionalidades que aleceram o desenvolvimento e fornecem uma estrutura completa para inicializar o projeto. Além disso, também utilizamos a funcionalidade de rotas API do Next.js como uma "camada" antes das informações serem eviadas para o back-end Java.
 
 ## Endpoints
-d
