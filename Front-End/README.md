@@ -3,6 +3,7 @@
 ## Conteudo
 - [Introdução](#introdução)
 - [Configuração](#configuração)
+- [Estrutura](#estrutura)
 - [Endpoints](#endpoints)
     - [Comentário](#comentário)
     - [Publcação](#publicação)
@@ -62,6 +63,23 @@ para instalar todas as depêndencias do React.js e Next.js. Após a instalação
 npm run dev
 ```
 para iniciar a aplicação em ambiente de desenvolvimento
+
+## Estrutura
+- [Components](https://github.com/ProjetoVirtus/Virtus/tree/main/Front-End/components)
+    - Contém os componentes React reutilizáveis que são usados em várias partes da aplicação
+- [Images](https://github.com/ProjetoVirtus/Virtus/tree/main/Front-End/images)
+    - Contém as imagens usadas na aplicação.
+- [Pages](https://github.com/ProjetoVirtus/Virtus/tree/main/Front-End/pages)
+    - Contém os componentes de página que correspondem às rotas da aplicação. Cada arquivo dentro desta pasta é automaticamente mapeado para uma rota pelo Next.js
+- [Pages/api](https://github.com/ProjetoVirtus/Virtus/tree/main/Front-End/pages/api)
+    - Contém os manipuladores de API que são usados para criar uma API com o Next.js. Cada arquivo dentro desta pasta é automaticamente mapeado para uma rota de API pelo Next.js
+- [Public](https://github.com/ProjetoVirtus/Virtus/tree/main/Front-End/public)
+    - Contém arquivos estáticos, como imagens, fontes e ícones, que podem ser acessados diretamente pelo navegador.
+- [Styles](https://github.com/ProjetoVirtus/Virtus/tree/main/Front-End/styles)
+    - Contém os arquivos de estilo CSS globais e específicos de componente usados na aplicação
+- [Utils](https://github.com/ProjetoVirtus/Virtus/tree/main/Front-End/utils)
+    - Contém funções utilitárias reutilizáveis usadas em várias partes da aplicação
+
 
 ## Endpoints
 > **:warning:** Todos os argumentos retornados pelos endpoints são em forma de JSON. <br> Também considere que todas as requisições são feitas dentro do proprio front-end, caso queira utiliza-las você deve pegar a URL do front-end e inserir a rota /api após ela. <br>Exemplo: o front-end está rodando na URL **http://localhost:300**, você deve executar: **http://localhost:3000/api/...**
