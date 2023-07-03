@@ -53,7 +53,7 @@ BACKEND_URL=http://localhost:8080
 BACKEND_KEY=CHAVE_ACESSO
 ```
 
-Após isso, você pode executar o comando
+Após isso abra o terminal e navegue até a pasta raiz do projeto e execute o comando:
 ```
 npm i
 ```
@@ -609,6 +609,7 @@ para iniciar a aplicação em ambiente de desenvolvimento
             password: "senhamuitoforte",
             gender: 1,
             birth: "2023-07-03",
+            isProfessional: true,
             actuationArea: "Família",
             OABCode: "123456"
         })
