@@ -57,7 +57,7 @@ Após isso, você pode executar o comando
 ```
 npm i
 ```
-para instalar todas as depêndencias do React.js e Next.js. Após a instalação, inicialize o back-end primeiro. Após certificar-se que o back-end está inicializado e funcionando, execute:
+para instalar todas as depêndencias do React.js e Next.js. Após a instalação, inicialize o back-end primeiro(verifique o tópico de [configuração](https://github.com/ProjetoVirtus/Virtus/tree/main/Back-end#configura%C3%A7%C3%A3o) do back-end). Após certificar-se que o back-end está inicializado e funcionando, execute:
 ```
 npm run dev
 ```
