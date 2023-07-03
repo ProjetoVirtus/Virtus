@@ -36,7 +36,7 @@ Esse repositório é responsável por fornecer uma interface rápida e intuitiva
 <br>
 
 - ![Next.js](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
-    - Utilizamos o Next.js por sua facilidade e eficiência. Ele reúne diversas funcionalidades que aleceram o desenvolvimento e fornecem uma estrutura completa para inicializar o projeto. Além disso, também utilizamos a funcionalidade de rotas API do Next.js como uma "camada" antes das informações serem eviadas para o back-end Java.
+    - Utilizamos o Next.js por sua facilidade e eficiência. Ele reúne diversas funcionalidades que aleceram o desenvolvimento e fornecem uma estrutura completa para inicializar o projeto. Além disso, também utilizamos a funcionalidade de rotas API do Next.js como uma "camada" antes das informações serem eviadas para o back-end Java
 
 ## Configuração
 > **⚠️** Certifique-se de que você tenha o [Node.js](https://nodejs.org/en) instalado em sua máquina

@@ -15,7 +15,6 @@ Esse repositório contém o código-fonte do back-end, construído com o Java Sp
 
 - ![Spring](https://img.shields.io/badge/Spring-6DB33F.svg?style=for-the-badge&logo=Spring&logoColor=white)
     - Utilizamos o framework Spring para acelerar o desenvolvimento de nosso back-end e aumentar a produtividade. Ele nos oferceu um conjunto abrangente de ferramentas e recursos para criar rapidamente uma API RESTful robusta e escalável
-    - 
 
 ## Configuração
 > **⚠️** Certifique-se que você tenha o [Java Devlopment Kit (JDK)](https://www.oracle.com/java/technologies/downloads/#java17) versão 17 instalado em sua máquina

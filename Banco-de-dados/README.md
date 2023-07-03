@@ -1,4 +1,5 @@
-#Banco-de-Dados – Virtus
+![Banco de dados](../Imagens/Banco%20de%20dados.png)
+# Banco de Dados – Virtus
 
 Todas as informaçãos pessoais foram tratadas de acordo com a lei de n°13.709, tabém conhecida como Lei Geral de Proteção de Dados (LGPD). Baseada em princípios fundamentais, como o respeito à privacidade, a autodeterminação informativa, a transparência, a finalidade, a necessidade, a segurança, a não discriminação e a prestação de contas.
 
@@ -9,9 +10,6 @@ A primeira parte da modelagem consiste em fazer o modelo conceitual e assim iden
 ### Modelo Conceitual
 
 ![Modelo Conceitual](Modelo_Conceitual_Virtus.png)
-
-
-
 
 
 ### MODELO LÓGICO
