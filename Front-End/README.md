@@ -2,6 +2,7 @@
 
 ## Conteudo
 - [Introdução](#introdução)
+- [Configuração](#configuração)
 - [Endpoints](#endpoints)
 
 ## Introdução
@@ -31,4 +32,65 @@ Esse repositório é responsável por fornecer uma interface rápida e intuitiva
 - ![Next.js](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
     - Utilizamos o Next.js por sua facilidade e eficiência. Ele reúne diversas funcionalidades que aleceram o desenvolvimento e fornecem uma estrutura completa para inicializar o projeto. Além disso, também utilizamos a funcionalidade de rotas API do Next.js como uma "camada" antes das informações serem eviadas para o back-end Java.
 
+## Configuração
+Para a inicialização do projeto, ele necessita de um arquivo que vai salvar as variaveis importantes. Dentro da pasta raís do front-end, crie um arquivo chamado ```.env.local```, nela você vai colocar:
+- NEXTAUTH_SECRET: Chave secreta da autenticação
+- BACKEND_URL: URL onde vai ficar localizada a aplicação back-end
+- BACKEND_KEY: Chave de acesso para o back-end
+
+Exemplo:
+```
+NEXTAUTH_SECRET=CHAVE_SECRETA
+BACKEND_URL=http://localhost:8080
+BACKEND_KEY=CHAVE_ACESSO
+```
+
+Após isso, você pode executar o comando
+```
+npm i
+```
+para instalar todas as depêndencias do React.js e Next.js. Após a instalação, inicialize o back-end primeiro. Após certificar-se que o back-end está inicializado e funcionando, execute:
+```
+npm run dev
+```
+para iniciar a aplicação em ambiente de desenvolvimento
+
 ## Endpoints
+-  Comentário
+    - POST /api/commentary/POST
+        - Descrição: Cria um novo comentário na publicação referenciado pelo `postId` informado
+        - Corpo da requisição: JSON contendo os campos: 
+            - `postId`(Integer) e `content`(String) 
+        - Exemplo de corpo da requisição: 
+        ```JSON
+        {
+            "postId": 1,
+            "content": "Contúdo do comentário"
+        }
+        ```
+        - Resposta: JSON com o código de 201(CREATED) confirmando a criação do comentário, incluindo somente o campo de `message`(String)
+        - Exemplo de resposta: 
+        ```json
+        {
+            "message": "Comentário adicionado com sucesso"
+        }
+        ```
+    - PUT /api/commentary/PUT
+        - Descrição: Edita o comentário referenciado pelo `commentaryId` na publicação, que é referenciado pelo `postId`, por fim contendo o conteúdo que é representado pelo `content`
+        - Corpo da requisição: JSON contendo os campos:
+            - `commentaryId`(Integer), `postId`(Integer), `content`(String)
+        - Exemplo de corpo da requisição:
+        ```json
+        {
+            "postId": 1,
+            "commentaryId": 1,
+            "content": "Conteudo da edição"
+        }
+        ```
+        - Resposta: JSON com o código de 200(OK) confirmando a edição, incluindo somente o campo de `message`(String)
+        - Exemplo de resposta:
+        ```json
+        {
+            "message": "Comentario editado com sucesso"
+        }
+        ```
