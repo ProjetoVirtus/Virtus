@@ -3,8 +3,9 @@
 ## Counteúdo
 - [Introdução](#introdução)
 - [Técnologias Utilizadas](#técnologias-utilizadas)
-- [Estrutura](#estrutura)
 - [Configuração](#configuração)
+- [Estrutura](#estrutura)
+- [Endpoints](#endpoints)
 
 ## Introdução
 Esse repositório contém o código-fonte do back-end, construído com o Java Spring. Ele nos forneceu um conjunto abrangente de ferramentas e recursos para criar uma API RESTful de forma rápida, robusta e escalável para atender às necessidades do nosso projeto. Com o Java Spring, conseguimos construir um back-end poderoso e eficiente que se comunica perfeitamente com o front-end para fornecer uma experiência rápida e intuitiva
