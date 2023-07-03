@@ -62,7 +62,7 @@ npm run dev
 para iniciar a aplicação em ambiente de desenvolvimento
 
 ## Endpoints
-!!!warning Todos os argumentos retornados pelos endpoints são em forma de JSON. <br> Também considere que todas as requisições são feitas dentro do proprio front-end, caso queira utiliza-las você deve pegar a URL do front-end e inserir a rota /api após ela. <br>Exemplo: o front-end está rodando na URL **http://localhost:300**, você deve executar: **http://localhost:3000/api/...**
+> **:warning:** Todos os argumentos retornados pelos endpoints são em forma de JSON. <br> Também considere que todas as requisições são feitas dentro do proprio front-end, caso queira utiliza-las você deve pegar a URL do front-end e inserir a rota /api após ela. <br>Exemplo: o front-end está rodando na URL **http://localhost:300**, você deve executar: **http://localhost:3000/api/...**
 
 ### Comentário
 - POST /api/commentary/POST
@@ -207,7 +207,7 @@ para iniciar a aplicação em ambiente de desenvolvimento
     ```
 - GET /api/post/GET-SPECIFIC
 
-    !!!warning Essa requisição não é mais necessária. Fazemos a requisição pela propria página na hora de carrega-la
+    > **:warning:** Essa requisição não é mais necessária. Fazemos a requisição pela propria página na hora de carrega-la
     - Descrição: Retorna um objeto da publicação representado pelo parâmetro `postId`
     - Corpo JSON contendo o seguinte campo:
         - `postId`(Integer): id da publicação
@@ -253,7 +253,7 @@ para iniciar a aplicação em ambiente de desenvolvimento
     ```
 - GET /api/post/GET
 
-    !!!warning Essa rota também não é mais utilizada. Ela foi substítuida pela primeira rota mencionada
+    > **:warning:** Essa rota também não é mais utilizada. Ela foi substítuida pela primeira rota mencionada
 
     - Descrição: Retorna todas as publicações
     - Não é necesssário um corpo JSON
@@ -574,7 +574,7 @@ para iniciar a aplicação em ambiente de desenvolvimento
 ## Registro
 - POST /api/signup
 
-    !!!note Os campos de `actuationArea` e `OABCode` se anulam automaticamente se o usuário se escolhar a opção de se registrar como regular
+    > **:warning:** Os campos de `actuationArea` e `OABCode` se anulam automaticamente se o usuário se escolhar a opção de se registrar como regular
   
     - Descrição: Cria uma nova conta contendo os campos: `phoneNumber`, `email`, `password`, `gender`, `birth`, `actuationArea`, `OABCode` 
     - Corpo JSON contendo os seguintes campos:
@@ -622,9 +622,9 @@ para iniciar a aplicação em ambiente de desenvolvimento
 
 ### Login
 
-!!!info Utilizamos a library [NextAuth](https://next-auth.js.org/) para manusear a autenticação/autorização
+> **:information_source:** Utilizamos a library [NextAuth](https://next-auth.js.org/) para manusear a autenticação/autorização
 
-!!!warning Utilizamos a função [signIn](https://next-auth.js.org/getting-started/client#signin) em vez do fetch para chamar o endpoint de login e realizar a ação de login
+> **:warning:** Utilizamos a função [signIn](https://next-auth.js.org/getting-started/client#signin) em vez do fetch para chamar o endpoint de login e realizar a ação de login
 
 - Exemplo de uso da função signIn:
     ```javascript
