@@ -39,6 +39,8 @@ Esse repositório é responsável por fornecer uma interface rápida e intuitiva
     - Utilizamos o Next.js por sua facilidade e eficiência. Ele reúne diversas funcionalidades que aleceram o desenvolvimento e fornecem uma estrutura completa para inicializar o projeto. Além disso, também utilizamos a funcionalidade de rotas API do Next.js como uma "camada" antes das informações serem eviadas para o back-end Java.
 
 ## Configuração
+> **⚠️** Certifique-se de que você tenha o [Node.js](https://nodejs.org/en) instalado em sua máquina
+
 Para a inicialização do projeto, ele necessita de um arquivo que vai salvar as variaveis importantes. Dentro da pasta raís do front-end, crie um arquivo chamado ```.env.local```, nela você vai colocar:
 - NEXTAUTH_SECRET: Chave secreta da autenticação
 - BACKEND_URL: URL onde vai ficar localizada a aplicação back-end
