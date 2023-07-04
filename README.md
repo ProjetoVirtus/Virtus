@@ -41,21 +41,21 @@ Somos uma plataforma web gratuita, que trás informação jurídica de forma tra
 ## Integrantes
 <br>
 <div align="center">
-<a><img src="Imagens/Daniel%20Ribeiro.png" width="200" height="200"></a>
-<a><img src="Imagens/Eduarda%20Ribas.png" width="200" height="200"></a>
-<a><img src="Imagens/Gabriel%20Pinheiro.png" width="200" height="200"></a>
+<a href="https://github.com/favelatec" target="_blank"><img src="Imagens/Daniel%20Ribeiro.png" width="200" height="200"></a>
+<a href="https://github.com/dudaribas" target="_blank"><img src="Imagens/Eduarda%20Ribas.png" width="200" height="200"></a>
+<a href="https://github.com/Gabriel1Pinheiro" target="_blank"><img src="Imagens/Gabriel%20Pinheiro.png" width="200" height="200"></a>
 </div>
 
 <br>
 
 <div align="center">
-<a><img src="Imagens/Jo%C3%A3o%20Vitor.png" width="200" height="200"></a>
-<a><img src="Imagens/Matheus%20Vieira.png" width="200" height="200"></a>
-<a><img src="Imagens/Paulo%20Vitor.png" width="200" height="200"></a>
+<a href="https://github.com/Joaomaciel03" target="_blank"><img src="Imagens/Jo%C3%A3o%20Vitor.png" width="200" height="200"></a>
+<a href="https://github.com/MatheusVSN" target="_blank"><img src="Imagens/Matheus%20Vieira.png" width="200" height="200"></a>
+<a href="https://github.com/PauloVLSecDev" target="_blank"><img src="Imagens/Paulo%20Vitor.png" width="200" height="200"></a>
 </div>
 
 <br>
 
 <div align="center">
-<a><img src="Imagens/Romulo%20Brito.png" width="200" height="200"></a>
+<a href="https://github.com/romulobrp" target="_blank"><img src="Imagens/Romulo%20Brito.png" width="200" height="200"></a>
 </div>
